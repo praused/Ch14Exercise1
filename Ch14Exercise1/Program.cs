@@ -10,6 +10,13 @@ namespace Ch14Exercise1
     {
         static void Main(string[] args)
         {
+            Giraffe myPetGiraffe = new Giraffe
+            {
+                NeckLength = 3.14,
+                Name = "Gerald"
+            };
+            Console.WriteLine(myPetGiraffe);
+            Console.ReadKey();
         }
     }
 }
